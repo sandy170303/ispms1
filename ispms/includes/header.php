@@ -83,6 +83,7 @@ foreach($results as $row)
                         <?php if (strlen($_SESSION['ispmsuid']==0)) {?>
                         <li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="#" class="login" data-toggle="modal" data-target="#myModal4">Login</a></li>
                         <li><i class="glyphicon glyphicon-book" aria-hidden="true"></i><a href="#" class="login reg"  data-toggle="modal" data-target="#myModal5">Register</a></li><?php } ?>
+                        <li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="chat.html" class="login" data-toggle="modal" data-target="#myModal4">Chat</a></li>
                     </ul>
                 </div>
                 <div class="clearfix"> </div>
