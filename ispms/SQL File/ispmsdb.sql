@@ -42,7 +42,7 @@ CREATE TABLE `tbladmin` (
 --
 
 INSERT INTO `tbladmin` (`ID`, `AdminName`, `UserName`, `MobileNumber`, `Email`, `Password`, `AdminRegdate`) VALUES
-(1, 'Admin', 'admin', 8979555558, 'admin@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2019-10-11 04:36:52');
+(1, 'Admin', 'admin', 6382814982, 'santhosh170303@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2019-10-11 04:36:52');
 
 -- --------------------------------------------------------
 
@@ -164,10 +164,10 @@ CREATE TABLE `tblcontact` (
 
 INSERT INTO `tblcontact` (`ID`, `Name`, `Email`, `ServiceType`, `EnquiryType`, `MobileNumber`, `City`, `Message`, `Enquirydate`, `IsRead`, `Remark`, `UpdationDate`) VALUES
 (1, 'Sarita Pandey', 'g@gmail.com', 'Digital TV', 'Feedback', 7894561236, 'kolkata', 'gjjhghjgjhghjghjghgjhgjh', '2022-01-01 12:47:46', NULL, NULL, '2022-01-05 05:37:41'),
-(2, 'hkhkhk', 'jk@gmail.com', 'Broadband', 'Complaint', 8797987979, 'kjhkjh', 'kjhkjh', '2022-01-01 13:07:23', 1, 'Ok', '2022-01-05 06:32:11'),
-(3, 'Sonam', 'sonam@gmail.com', 'Broadband', 'Query', 7897897987, 'Ghaziabad', 'hkjykdkjher', '2022-01-04 11:49:31', NULL, NULL, '2022-01-05 05:37:41'),
-(4, 'Sonu', 'hjk@gmail.com', 'Digital TV', 'Request', 9878798799, 'rameshwaram', 'uiyuinnkjhiuhhgrjeoajoirtu', '2022-01-04 12:04:53', NULL, NULL, '2022-01-05 05:37:41'),
-(5, 'Anuj', 'dsadg@gghgads.com', 'Digital TV', 'Request', 22336655, 'New Delhi', 'This is for testing', '2022-01-18 17:38:57', 1, 'Issue resolved', '2022-01-18 17:39:20');
+(2, 'kaviya', 'jk@gmail.com', 'Broadband', 'Complaint', 8797987979, 'kjhkjh', 'kjhkjh', '2022-01-01 13:07:23', 1, 'Ok', '2022-01-05 06:32:11'),
+(3, 'santhosh', 'sonam@gmail.com', 'Broadband', 'Query', 7897897987, 'Ghaziabad', 'hkjykdkjher', '2022-01-04 11:49:31', NULL, NULL, '2022-01-05 05:37:41'),
+(4, 'arun', 'hjk@gmail.com', 'Digital TV', 'Request', 9878798799, 'rameshwaram', 'uiyuinnkjhiuhhgrjeoajoirtu', '2022-01-04 12:04:53', NULL, NULL, '2022-01-05 05:37:41'),
+(5, 'priya', 'priya@.com', 'Digital TV', 'Request', 22336655, 'New Delhi', 'This is for testing', '2022-01-18 17:38:57', 1, 'Issue resolved', '2022-01-18 17:39:20');
 
 -- --------------------------------------------------------
 
