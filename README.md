@@ -123,6 +123,118 @@ servers.
  
 </body></html>
 
+## Azure services:
+
+## Virtual Machine:
+Sign in to Azure Portal: Go to portal.azure.com and sign in with your Azure account.
+
+Navigate to Virtual Machines: Once you're logged in, you'll be in the Azure dashboard. In the left-hand menu, select "Virtual machines" under the "Create a resource" section.
+
+Click on Add: In the virtual machines pane, click on the "+ Add" button at the top.
+
+Select Basics: In the "Create a virtual machine" page, you'll be prompted to fill out details for your virtual machine. Start by selecting "Basic" under the "Basics" tab.
+
+Fill Out Basics: You'll need to provide basic information such as:
+
+Subscription: Select the subscription to use for this virtual machine.
+Resource group: Create a new resource group or use an existing one.
+Virtual machine name: Enter a name for your virtual machine.
+Region: Choose the region where you want to deploy your virtual machine.
+Availability options: Choose availability options if needed.
+Image: Select the operating system image you want to use (e.g., Windows, Linux).
+Size: Choose the size of the virtual machine based on your requirements.
+Configure Settings: Click on the "Next: Disks >" button to configure disks, networking, management, etc., if you need to customize these settings. Otherwise, you can leave them as default.
+
+Review + Create: Review your configuration settings to ensure everything is correct. Click on the "Review + create" button.
+
+Create the Virtual Machine: After reviewing, click on the "Create" button. Azure will now begin deploying your virtual machine based on the settings you provided.
+
+Monitor Deployment: You can monitor the deployment progress in the Azure portal. Once the deployment is complete, you'll see a notification.
+
+Access Your Virtual Machine: Once your virtual machine is deployed, you can access it using remote desktop (for Windows) or SSH (for Linux) depending on the operating system you selected.
+Review your settings, and when you're ready, click on the "Review + create" button.
+After validation passes, click on the "Create" button to create your VNet.
+
+## Azure Vnet :
+
+Sign in to the Azure portal at https://portal.azure.com/.
+Click on the "Create a resource" button in the upper left corner.
+In the search bar, type "Virtual Network" and press Enter.
+Select "Virtual Network" from the search results.
+Click on the "Create" button to begin the creation process.
+Fill in the required details such as subscription, resource group, name, and region.
+Configure the address space for your VNet.
+Optionally, add one or more subnets to your VNet by specifying a name and address range for each subnet.
+Configure additional settings if needed, such as DDoS protection, service endpoints, etc.
+
+## Monitor in Azure:
+Sign in to the Azure portal: Go to https://portal.azure.com/ and sign in to your Azure account.
+
+Navigate to Monitor service: Once you're logged in, click on the "More services" option in the left-hand menu and search for "Monitor" in the search bar. Click on "Monitor" from the search results.
+
+Create a new monitor: In the Monitor service, you'll typically find options to create various types of monitors such as metrics, alerts, or logs. Select the type of monitor you want to create (e.g., metric alert, activity log alert, diagnostic settings, etc.).
+
+Configure monitor settings: Depending on the type of monitor you're creating, you'll need to configure specific settings. For example, if you're creating a metric alert, you'll need to select the resource, metric, condition, and action group. If you're setting up diagnostic settings, you'll need to choose the resource, logs/metrics to collect, and destination.
+
+Review and create: Once you've configured the monitor settings, review them to ensure they're accurate. Then, click on the "Create" or "Save" button to create the monitor.
+
+Verify monitor creation: After creating the monitor, you may want to verify that it's working as expected. You can do this by checking the monitor's status or triggering test events/alerts to ensure it's properly configured.
+
+By following these steps, you can create monitors in the Azure portal to track various metrics, events, and activities within your Azure resources.
+
+User
+create monitor in azure
+ChatGPT
+To create a monitor in Azure, let's create a metric alert for a virtual machine as an example:
+
+Sign in to the Azure portal: Go to https://portal.azure.com/ and sign in to your Azure account.
+
+Navigate to the virtual machine: Use the search bar at the top of the portal to find and select your virtual machine.
+
+Set up a metric alert:
+
+In the left-hand menu for the virtual machine, under Monitoring, select "Alerts."
+Click on the "+ New alert rule" button.
+Define the condition:
+
+In the "Condition" tab, click on "Add condition."
+Choose the metric you want to monitor (e.g., CPU percentage).
+Set the threshold and the condition for triggering the alert (e.g., greater than 90% for 5 minutes).
+Configure other settings such as the time aggregation, period, and operator.
+Define the action group:
+
+In the "Actions" tab, click on "Create action group."
+Enter a name for the action group.
+Add notification methods (e.g., email, SMS) and details for each recipient.
+Click on "OK" to save the action group.
+Define the alert details:
+
+In the "Alert details" tab, provide a name and description for the alert rule.
+Choose the action group you created earlier.
+Optionally, configure other settings such as severity and tags.
+Review and create:
+
+Review all the settings to ensure they are correct.
+Click on the "Create alert rule" button to create the metric alert.
+Verification:
+
+Once created, you can verify the alert by monitoring the metrics of your virtual machine. If the conditions specified in the alert rule are met, an alert will be triggered, and the action group will be notified according to the defined notification methods.
+
+ ## AI Bot  :
+    In the Azure portal, Artificial Intelligence (AI) is utilized in various services and offerings across different categories. Here are some key areas where AI is prominently featured:
+
+Azure Cognitive Services: Azure Cognitive Services provide a set of APIs and services for building intelligent applications using machine learning and AI. These services include Computer Vision, Speech Services, Language Understanding (LUIS), Translator, and more. You can access and manage these services in the Azure portal under the "AI + Machine Learning" category.
+
+Azure Machine Learning: Azure Machine Learning is a cloud-based platform for building, training, and deploying machine learning models. It provides tools and services for data scientists and developers to collaborate on machine learning projects. You can create and manage machine learning workspaces, experiments, datasets, models, and deployments in the Azure portal.
+
+Azure Bot Service: Azure Bot Service allows you to build, connect, deploy, and manage intelligent bots that interact with users across multiple channels. You can create and manage bot resources, channels, and channels registrations in the Azure portal.
+
+Azure Cognitive Search: Azure Cognitive Search enables you to build AI-powered search solutions for your applications. It provides capabilities for indexing, searching, and analyzing structured and unstructured data. You can create and manage search services, indexes, data sources, indexers, and skillsets in the Azure portal.
+
+Azure Databricks: Azure Databricks is an Apache Spark-based analytics platform optimized for big data and machine learning. It provides collaborative notebooks, interactive data exploration, and machine learning capabilities. You can create and manage Databricks workspaces, clusters, notebooks, andjobs in the Azure portal.
+
+Azure AI Gallery: The Azure AI Gallery is a collection of AI models, solutions, and templates that you can deploy and use in your applications. You can browse, discover, and deploy AI resources from the Azure AI Gallery in the Azure portal.
+
 
 ## How to run Internet Service Provider Management Project using PHP and MySQL
 
