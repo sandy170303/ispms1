@@ -5,7 +5,6 @@ include('includes/dbconnection.php');
 ?>
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>About Us Page</title>
     <!-- for-mobile-apps -->

@@ -33,6 +33,7 @@ foreach($results as $row)
                     <li><a href="admin/login.php">Admin</a></li>
                     <li><a href="bbplan.php">Broadband</a></li>
                     <li><a href="dthplan.php">DTH Cable TV</a></li>
+                    <li><a href="admin/login.php">chat</a></li>
                 </ul>
                 </div>
             </div>
